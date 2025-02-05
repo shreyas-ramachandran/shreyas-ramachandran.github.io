@@ -1,8 +1,8 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/vendor';
-@import 'libs/breakpoints';
+@use 'libs/vars';
+@use 'libs/functions';
+@use 'libs/mixins';
+@use 'libs/vendor';
+@use 'libs/breakpoints';
 
 /*
 	Dimension by HTML5 UP
@@ -28,7 +28,7 @@
 				opacity: 1;
 			}
 
-			@include vendor('filter', 'none');
+			@include vendor.vendor('filter', 'none');
 
 			.content {
 				.inner {
@@ -45,6 +45,6 @@
 	#main {
 		article {
 			opacity: 1;
-			margin: (_size(element-margin) * 2) 0 0 0;
+			margin: (functions.size(element-margin) * 2) 0 0 0;
 		}
 	}

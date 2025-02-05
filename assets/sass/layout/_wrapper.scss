@@ -1,3 +1,6 @@
+@use "../libs/breakpoints";
+@use "../libs/vendor";
+
 ///
 /// Dimension by HTML5 UP
 /// html5up.net | @ajlkn
@@ -7,10 +10,10 @@
 /* Wrapper */
 
 	#wrapper {
-		@include vendor('display', 'flex');
-		@include vendor('flex-direction', 'column');
-		@include vendor('align-items', 'center');
-		@include vendor('justify-content', 'space-between');
+		@include vendor.vendor('display', 'flex');
+		@include vendor.vendor('flex-direction', 'column');
+		@include vendor.vendor('align-items', 'center');
+		@include vendor.vendor('justify-content', 'space-between');
 		position: relative;
 		min-height: 100vh;
 		width: 100%;
@@ -22,15 +25,15 @@
 			display: block;
 		}
 
-		@include breakpoint('<=xlarge') {
+		@include breakpoints.breakpoint('<=xlarge') {
 			padding: 3rem 2rem;
 		}
 
-		@include breakpoint('<=small') {
+		@include breakpoints.breakpoint('<=small') {
 			padding: 2rem 1rem;
 		}
 
-		@include breakpoint('<=xsmall') {
+		@include breakpoints.breakpoint('<=xsmall') {
 			padding: 1rem;
 		}
 	}

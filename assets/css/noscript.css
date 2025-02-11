@@ -9,20 +9,14 @@ body.is-preload #bg:before {
 }
 
 /* Header */
-body.is-preload #header > * {
-  opacity: 1;
-}
 body.is-preload #header {
   -moz-filter: none;
-}
-body.is-preload #header {
   -webkit-filter: none;
-}
-body.is-preload #header {
   -ms-filter: none;
-}
-body.is-preload #header {
   filter: none;
+}
+body.is-preload #header > * {
+  opacity: 1;
 }
 body.is-preload #header .content .inner {
   max-height: none;

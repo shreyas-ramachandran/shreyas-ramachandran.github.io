@@ -361,7 +361,7 @@
 		// Expand property?
 			@if $expandProperty {
 			    @each $vendor in $vendor-prefixes {
-			        &{ #{$vendor}#{$property}: #{str-replace-all($value, '-prefix-', $vendor)} };
+			        #{$vendor}#{$property}: #{str-replace-all($value, '-prefix-', $vendor)};
 			    }
 			}
 

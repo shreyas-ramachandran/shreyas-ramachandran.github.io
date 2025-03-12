@@ -360,6 +360,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/showdown.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
@@ -367,7 +368,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			
 			<script>
 				$(document).ready(function() {
-					$.get('assets/pages/about.rst', function(data) {
+					$.get('assets/pages/about.md', function(data) {
 						var converter = new showdown.Converter();
 						var html = converter.makeHtml(data);
 						$('#about').append(html);

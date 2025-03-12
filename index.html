@@ -32,7 +32,7 @@
 						<div class="content">
 							<div class="inner">
 								<h1>Shreyas Ramachandran</h1>
-								<h3 style="font-size: 1.3em;">Researcher, Engineer, and a lot more</h3>
+								<h3 style="font-size: 1.3em;">Researcher, Engineer, and more</h3>
 								<p style="margin-right: 12.5vw; margin-left: 12.5vw; font-size: 0.85em;">Welcome to my research page! I am a passionate material scientist and engineer specializing in 2D materials. My work focuses on advancing energy efficiency through innovative research and cutting-edge technology. Explore my projects and join me on this journey towards a sustainable future.</p>
 							</div>
 						</div>
@@ -366,6 +366,14 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			
+			<script>
+				$(document).ready(function() {
+					$.get('test.txt', function(data) {
+						$('#about').prepend('<p>' + data + '</p>');
+					});
+				});
+			</script>
 
 	</body>
 </html>

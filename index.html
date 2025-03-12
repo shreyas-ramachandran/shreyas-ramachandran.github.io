@@ -364,20 +364,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-			<script src="https://cdn.jsdelivr.net/pyodide/v0.26.3/full/pyodide.asm.js"></script>
-			<script src="https://unpkg.com/restructedpyjs@latest/dist/restructedpyjs.bundle.js"></script>
 			
 			<script>
 				$(document).ready(function() {
 					$.get('assets/pages/about.rst', function(data) {
-						const RestructedPyJS = require('restructedpyjs').default;
-						const rstToHtml = async (rstText) => {
-							const restructedpyjs = new RestructedPyJS();
-							const html = await restructedpyjs.convert(rstText);
-							return html;
-						}
-						var html = rstToHtml(data);
+						var converter = new showdown.Converter();
+						var html = converter.makeHtml(data);
 						$('#about').append(html);
 					});
 				});

@@ -377,10 +377,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							const html = await restructedpyjs.convert(rstText);
 							return html;
 						}
-						$('#about').append('<p>'+ data + '</p>');
+						$('#about').append('<p>'+ data + ' THIS IS THE DATA FILE</p>');
 						const inputText = data;
 						const html = await rstToHtml(inputText);
-						$('#about').append(html);
+						$('#about').append('<p> THIS IS THE CONVERTED?' + html + '</p>');
 					});
 				});
 			</script>

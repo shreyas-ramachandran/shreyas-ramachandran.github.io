@@ -370,16 +370,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			
 			<script>
 				$(document).ready(function() {
-					$.get('assets/pages/about.rst', async function(data) {
+					$.get('assets/pages/about.rst', function(data) {
 						const RestructedPyJS = require('restructedpyjs').default;
 						const rstToHtml = async (rstText) => {
 							const restructedpyjs = new RestructedPyJS();
 							const html = await restructedpyjs.convert(rstText);
 							return html;
 						}
-						const inputText = data;
-						const html = await rstToHtml(inputText);
-						$('#about').append(html);
+						rstToHtml(data).then(html =>{
+							console.log(html); // Log the HTML content to the console
+							$('#about').append(html);
+						});
 					});
 				});
 			</script>

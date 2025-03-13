@@ -16,8 +16,8 @@ For more information about my research projects and publications, please visit m
 
 
 <ul class="icons">
-    <li><a href="https://scholar.google.com/citations?hl=en&user=g2rvW98AAAAJ" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>
-    <li><a href="https://orcid.org/0000-0002-1539-1492" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
-    <li><a href="https://www.linkedin.com/in/shreyas-ramachandran-332468191/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-    <li><a href="https://github.com/shreyas-ramachandran" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+    <li><a href="https://scholar.google.com/citations?hl=en&user=g2rvW98AAAAJ" target="_blank" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>
+    <li><a href="https://orcid.org/0000-0002-1539-1492" target="_blank" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
+    <li><a href="https://www.linkedin.com/in/shreyas-ramachandran-332468191/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+    <li><a href="https://github.com/shreyas-ramachandran" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 </ul>

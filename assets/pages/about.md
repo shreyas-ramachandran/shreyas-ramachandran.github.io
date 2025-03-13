@@ -1,13 +1,10 @@
 <h2 class="major">About Me</h2>
 <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 
-```markdown
----
-author: "Shreyas Ramachandran"
-keywords: "Material Scientist, Engineer, 2D Materials, Energy Efficiency, Research, Technology, Ph.D., Condensed Matter Physics, University of Edinburgh"
-description: "An introduction to the author of this site."
----
-```
+<meta name="title" content="About Me">
+<meta name="description" content="An introduction to the author of this site.">
+<meta name="keywords" content="Shreyas, Ramachandran, Materials Science, material scientist, 2D materials, energy efficiency, energy storage, research, University of Edinburgh, Ph.D., Condensed Matter Physics">
+<meta name="author" content="Shreyas Ramachandran">
 
 Hi! I am Shreyas Ramachandran, a material scientist and engineer specializing in 2D materials. I am passionate about advancing energy efficiency through innovative research and cutting-edge technology. My work focuses on developing new materials and technologies to address the challenges of the 21st century. I am currently pursuing my Ph.D. in Condensed Matter Physics at the University of Edinburgh.
 

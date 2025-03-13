@@ -13,4 +13,3 @@ Some of my recent projects include:
 My research has the potential to impact a wide range of fields, from energy storage and conversion to electronics and optoelectronics. I am excited to be part of the growing community of researchers working on 2D materials and to contribute to the development of new technologies that can address the challenges of the 21st century.
 
 For more information about my research projects and publications, please visit my [Google Scholar](https://scholar.google.com/citations?hl=en&user=g2rvW98AAAAJ) profile.
-```

@@ -1,13 +1,6 @@
 <h2 class="major">Research</h2>
 <span class="image main"><img src="images/pic02.jpg" alt="" /></span>
 
-
-<meta name="title" content="Research">
-<meta name="description" content="Overview of research projects and publications.">
-<meta name="author" content="Shreyas Ramachandran">
-<meta name="date" content="2023-10-05">
-<meta name="keywords" content="Shreyas, Ramachandran, Materials science,  2D materials, energy storage, energy conversion,energy efficiency, heterostructures, electrochemical devices, batteries, supercapacitors, fuel cells, microscopy, material synthesis">
-
 My research focuses on developing new materials and technologies for energy storage and conversion. I am particularly interested in 2D materials and heterostructures, which have unique properties that make them promising candidates for a wide range of applications. I use a combination of experimental and computational techniques to study the structure, properties, and performance of these materials. My work aims to advance our understanding of 2D materials and their potential for use in electrochemical devices such as batteries, supercapacitors, and fuel cells.
 
 Some of my recent projects include:

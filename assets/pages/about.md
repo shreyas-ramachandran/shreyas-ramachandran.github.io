@@ -1,11 +1,21 @@
-# About Me
-
-<meta name="description" content="An introduction to the author of this site.">
-
-![image](images/pic01.jpg)
-
+<h2 class="major">About Me</h2>
 <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
 
-Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my [research](#research).
+```markdown
+---
+author: "Shreyas Ramachandran"
+keywords: "Material Scientist, Engineer, 2D Materials, Energy Efficiency, Research, Technology, Ph.D., Condensed Matter Physics, University of Edinburgh"
+description: "An introduction to the author of this site."
+---
+```
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+Hi! I am Shreyas Ramachandran, a material scientist and engineer specializing in 2D materials. I am passionate about advancing energy efficiency through innovative research and cutting-edge technology. My work focuses on developing new materials and technologies to address the challenges of the 21st century. I am currently pursuing my Ph.D. in Condensed Matter Physics at the University of Edinburgh.
+
+My research interests include:
+
+- 2D materials and heterostructures
+- Energy storage and conversion
+- Electrochemical devices
+- Materials characterization
+
+Feel free to explore my research projects and publications [here](#research). If you have any questions or would like to collaborate, please don't hesitate to [contact me](#contact).

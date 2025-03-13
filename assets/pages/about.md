@@ -15,7 +15,7 @@ Feel free to explore my research projects and publications [here](#research). If
 Links - 
 
 <ul class="icons">
-    <li><a href="https://scholar.google.com/citations?user=g2rvW98AAAAJ&hl=en" class="fa-brands fa-google-scholar"><span class="label">Google Scholar</span></a></li>
+    <li><a href="https://scholar.google.com/citations?user=g2rvW98AAAAJ&hl=en" class="fa-brands fa-google-scholar"><span class="label"></span></a></li>
     <li><a href="https://orcid.org/0000-0002-1539-1492" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
     <li><a href="https://www.linkedin.com/in/shreyas-ramachandran-332468191/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
     <li><a href="https://github.com/shreyas-ramachandran" class="icon brands fa-github"><span class="label">GitHub</span></a></li>

@@ -65,19 +65,19 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
+								<form id="gform" name="gform" target="hidden_iframe" onsubmit="submitted=true;" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSegLQscTGdClV8TtGX1zA5dJ8TcTg6Tvi2J-i5uz81U7aXLyQ/formResponse?">
 									<div class="fields">
 										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
+											<label for="entry.734014162">Name</label>
+											<input type="text" name="entry.734014162" id="entry.734014162" />
 										</div>
 										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
+											<label for="entry.254753588">Email</label>
+											<input type="text" name="entry.254753588" id="entry.254753588" />
 										</div>
 										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="4"></textarea>
+											<label for="entry.2074144938">Message</label>
+											<textarea name="entry.2074144938" id="entry.2074144938" rows="4"></textarea>
 										</div>
 									</div>
 									<ul class="actions">
@@ -85,6 +85,7 @@
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
+								<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 								<ul class="icons">
 									<li><a href="https://scholar.google.com/citations?hl=en&user=g2rvW98AAAAJ" target="_blank" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>
 									<li><a href="https://orcid.org/0000-0002-1539-1492" target="_blank" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
@@ -355,9 +356,22 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+		<!-- Google Form Submission scripts-->
+			<script type="text/javascript">
+				var submitted=false;
+			</script>
+
+			<script type="text/javascript">
+				$('#gform').on('submit', function(e) {
+					$('#gform *').fadeOut(1);
+					$('#gform').prepend('Your submission has been received. Thank you for your message!');
+				});
+			</script>
+
 			
 		<!-- Custom scripts to read the data for the webpage from markdown files-->
-		 <!-- About Me Page-->	
+			<!-- About Me Page-->	
 			<script>
 				$(document).ready(function() {
 					$.get('assets/pages/about.md', function(data) {
@@ -368,7 +382,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				});
 			</script>
 
-		<!-- Research Page-->
+			<!-- Research Page-->
 			<script>
 				$(document).ready(function() {
 					$.get('assets/pages/research.md', function(data) {
@@ -379,7 +393,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				});
 			</script>
 
-		<!-- Other Additional Pages (future use) -->
+			<!-- Other Additional Pages (future use) -->
 
 	</body>
 </html>

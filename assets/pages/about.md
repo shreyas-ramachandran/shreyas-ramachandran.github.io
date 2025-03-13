@@ -10,9 +10,7 @@ My research interests include:
 - Electrochemical devices
 - Materials characterization
 
-Feel free to explore my research projects and publications [here](#research). If you have any questions or would like to collaborate, please don't hesitate to [contact me](#contact).
-
-Links - 
+Feel free to explore my [research projects and publications](#research) and access my [CV here](https://drive.google.com/file/d/1CPxhd3hb_tvFQt6QLjsNNi30oNvvpNy0/view?usp=sharing). If you have any questions or would like to collaborate, please don't hesitate to [contact me](#contact).
 
 <ul class="icons">
     <li><a href="https://scholar.google.com/citations?hl=en&user=g2rvW98AAAAJ" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>

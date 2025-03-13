@@ -13,3 +13,11 @@ Some of my recent projects include:
 My research has the potential to impact a wide range of fields, from energy storage and conversion to electronics and optoelectronics. I am excited to be part of the growing community of researchers working on 2D materials and to contribute to the development of new technologies that can address the challenges of the 21st century.
 
 For more information about my research projects and publications, please visit my [Google Scholar](https://scholar.google.com/citations?hl=en&user=g2rvW98AAAAJ) profile.
+
+
+<ul class="icons">
+    <li><a href="https://scholar.google.com/citations?hl=en&user=g2rvW98AAAAJ" class="icon brands fa-google"><span class="label">Google Scholar</span></a></li>
+    <li><a href="https://orcid.org/0000-0002-1539-1492" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
+    <li><a href="https://www.linkedin.com/in/shreyas-ramachandran-332468191/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+    <li><a href="https://github.com/shreyas-ramachandran" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+</ul>

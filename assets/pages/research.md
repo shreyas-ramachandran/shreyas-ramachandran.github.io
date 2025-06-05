@@ -1,5 +1,5 @@
 <h2 class="major">Research</h2>
-<span class="image main"><img src="images/research_page.JPG" alt="" /></span>
+<span class="image main"><img src="images/research_page.png" alt="" /></span>
 
 My research focuses on developing new materials and technologies for energy storage and conversion. I am particularly interested in 2D materials and heterostructures, which have unique properties that make them promising candidates for a wide range of applications. I use a combination of experimental and computational techniques to study the structure, properties, and performance of these materials. My work aims to advance our understanding of 2D materials and their potential for use in electrochemical devices such as batteries, supercapacitors, and fuel cells.
 
